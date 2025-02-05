@@ -1,0 +1,33 @@
+@import "datatables.net-dt";
+@import "datatables.net-responsive-dt";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  color: #444050 !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+body {
+  min-width: 400px !important;
+}
+
+table.dataTable td,
+table.dataTable th {
+  text-align: left !important;
+}
+
+span.datatable-total-amount {
+  font-weight: bold;
+  color: #7367f0;
+  padding-left: 10px;
+}
+
+table.dataTable td.dt-empty {
+  text-align: center !important;
+}

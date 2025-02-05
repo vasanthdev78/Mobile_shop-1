@@ -1,0 +1,20 @@
+span.layout-menu-hover {
+    display: none !important;
+}
+
+span.layout-menu-collapsed {
+    display: block !important;
+    margin-right: 20px !important;
+}
+
+span.layout-menu-collapsed.layout-menu-hover {
+    display: none !important;
+}
+
+/* span.layout-menu-collapsed.layout-menu-expanded{
+     display: none !important;
+ } */
+
+span.layout-menu-collapsed.layout-menu-expanded.layout-menu-hover {
+    display: none !important;
+}
